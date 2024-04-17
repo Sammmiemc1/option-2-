@@ -5,11 +5,11 @@ public class Main {
 		int minimum, maximum, newInt;
         double average;
          
-        System.out.println("Please enter " + 10 + " more number(s).");
+        System.out.println("Please enter " + 10 + " more grades(s).");
         while (!scnr.hasNextInt()) 
             {
         		scnr.nextLine();               
-        		System.out.println("Error! Invalid number. Try again.");
+        		System.out.println("Error! Invalid number.");
             }
             newInt = scnr.nextInt();
             maximum = newInt;
@@ -18,11 +18,11 @@ public class Main {
              
         for (int i=0; i<9; i++)
         {
-        		System.out.println("Please enter " + (9 - i) + " more number(s).");
+        		System.out.println("Please enter " + (9 - i) + " grade(s).");
         		while (!scnr.hasNextInt()) 
             {
         			scnr.nextLine();
-        			System.out.println("Error! Invalid number. Try again.");
+        			System.out.println("Error! Invalid number.");
             }
             newInt = scnr.nextInt();
              
